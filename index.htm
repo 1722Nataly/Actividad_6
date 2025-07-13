@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Craigslist Quito - Diseño Moderno por Secciones</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <script defer src="menu.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="logo" tabindex="0">
+      <i class="fas fa-city"></i> craigslist <span class="logo-ec">ec</span>
+    </div>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+      <i class="fas fa-bars"></i>
+    </button>
+    <nav id="nav-menu" class="nav-menu" hidden>
+      <ul>
+        <li><a href="#comunidad"><i class="fas fa-users"></i> Comunidad</a></li>
+        <li><a href="#vivienda"><i class="fas fa-home"></i> Vivienda</a></li>
+        <li><a href="#trabajo"><i class="fas fa-briefcase"></i> Trabajo</a></li>
+        <li><a href="#servicios"><i class="fas fa-cogs"></i> Servicios</a></li>
+        <li><a href="#sevende"><i class="fas fa-tags"></i> Se vende</a></li>
+        <li><a href="#agenda"><i class="fas fa-calendar-alt"></i> Agenda de Eventos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="comunidad" class="section comunidad">
+      <h2><i class="fas fa-users"></i> Comunidad</h2>
+      <p>Conéctate con grupos, eventos y actividades locales.</p>
+      <div class="cards">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Personas en Comunidad" />
+          <h3>Actividades</h3>
+          <p>Participa en eventos culturales y sociales.</p>
+        </article>
+        <article class="card">
+          <img src="/imag/perros.jpeg" alt="Mascotas" />
+          <h3>Animales</h3>
+          <p>Encuentra y adopta mascotas en tu zona.</p>
+        </article>
+        <article class="card">
+        <img src="/imag/eventos.jpeg" alt="Mascotas" />  
+          <h3>Eventos</h3>
+          <p>Conciertos, ferias y más para toda la familia.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="vivienda" class="section vivienda">
+      <h2><i class="fas fa-home"></i> Vivienda</h2>
+      <p>Encuentra alquileres, ventas y habitaciones disponibles.</p>
+      <div class="cards">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=600&q=80" alt="Casa moderna" />
+          <h3>Alquiler</h3>
+          <p>Opciones variadas para vivir cómodo.</p>
+        </article>
+        <article class="card">
+          <img src="/imag/venta casas.jpeg" alt="Casa en venta" />
+          <h3>Venta</h3>
+          <p>Encuentra la casa ideal para ti.</p>
+        </article>
+        <article class="card">
+          <img src="/imag/habitaciones.jpeg" alt="Habitación" />
+          <h3>Habitaciones</h3>
+          <p>Habitaciones amobladas y sin amoblar.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="trabajo" class="section trabajo">
+      <h2><i class="fas fa-briefcase"></i> Trabajo</h2>
+      <p>Encuentra empleos y servicios profesionales.</p>
+      <div class="cards">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" alt="Oficina" />
+          <h3>Empleos</h3>
+          <p>Ofertas laborales en diferentes sectores.</p>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" alt="Profesionales" />
+          <h3>Servicios profesionales</h3>
+          <p>Encuentra expertos para tus proyectos.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="servicios" class="section servicios">
+      <h2><i class="fas fa-cogs"></i> Servicios</h2>
+      <p>Clases, reparaciones, transporte y más.</p>
+      <div class="cards">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="Clases" />
+          <h3>Clases</h3>
+          <p>Aprende nuevas habilidades con profesionales.</p>
+        </article>
+        <article class="card">
+          <img src="/imag/reparaciones.jpeg" alt="Reparaciones" />
+          <h3>Reparaciones</h3>
+          <p>Servicios confiables para tu hogar y oficina.</p>
+        </article>
+        <article class="card">
+          <img src="/imag/transporte.jpeg" alt="Transporte" />
+          <h3>Transporte</h3>
+          <p>Opciones de transporte para personas y carga.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="sevende" class="section sevende">
+      <h2><i class="fas fa-tags"></i> Se vende</h2>
+      <p>Electrónica, muebles, vehículos y más.</p>
+      <div class="cards">
+        <article class="card">
+          <img src="/imag/electronica.jpeg" alt="Electrónica" />
+          <h3>Electrónica</h3>
+          <p>Últimos gadgets y dispositivos a buen precio.</p>
+        </article>
+        <article class="card">
+          <img src="/imag/muebles.jpeg" alt="Muebles" />
+          <h3>Muebles</h3>
+          <p>Variedad de muebles para todos los gustos.</p>
+        </article>
+        <article class="card">
+          <img src="/imag/vehiculos.jpeg" alt="Vehículos" />
+          <h3>Vehículos</h3>
+          <p>Autos, motos y más para moverte con estilo.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="agenda" class="section agenda">
+      <h2><i class="fas fa-calendar-alt"></i> Agenda de Eventos</h2>
+      <ul class="event-list">
+        <li>
+          <time datetime="2025-07-20">20 Julio 2025</time>
+          <strong>Feria de Emprendedores Quito</strong>
+          <p>Evento para promover negocios locales en el parque central.</p>
+        </li>
+        <li>
+          <time datetime="2025-07-25">25 Julio 2025</time>
+          <strong>Concierto de Música Andina</strong>
+          <p>Presentación en el Teatro Nacional con artistas locales.</p>
+        </li>
+        <li>
+          <time datetime="2025-08-01">1 Agosto 2025</time>
+          <strong>Curso de Reparaciones Básicas</strong>
+          <p>Taller gratuito para aprender reparaciones en el hogar.</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <p>&copy; 2025 Craigslist Quito</p>
+  </footer>
+  <script>
+    // Script para menú hamburguesa accesible
+   document.addEventListener('DOMContentLoaded', () => {
+  const menuToggle = document.querySelector('.menu-toggle');
+  const navMenu = document.getElementById('nav-menu');
+  const navLinks = navMenu.querySelectorAll('a');
+
+  // Alternar menú hamburguesa
+  menuToggle.addEventListener('click', () => {
+    const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+    menuToggle.setAttribute('aria-expanded', !isExpanded);
+    if (navMenu.hasAttribute('hidden')) {
+      navMenu.removeAttribute('hidden');
+    } else {
+      navMenu.setAttribute('hidden', '');
+    }
+  });
+
+  // Cerrar menú al hacer clic en cualquier enlace
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      navMenu.setAttribute('hidden', '');
+      menuToggle.setAttribute('aria-expanded', false);
+    });
+  });
+});
+  </script>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const cards = document.querySelectorAll('.card');
+    const datos = {
+      'Actividades': ['Talleres culturales', 'Reuniones vecinales', 'Clubes deportivos'],
+      'Animales': ['Adopción de mascotas', 'Eventos de vacunación', 'Accesorios para mascotas'],
+      'Eventos': ['Conciertos', 'Ferias artesanales', 'Charlas educativas'],
+      'Alquiler': ['Departamentos amoblados', 'Casas compartidas', 'Suites económicas'],
+      'Venta': ['Casas en el centro', 'Terrenos urbanizados', 'Departamentos de lujo'],
+      'Habitaciones': ['Con baño privado', 'Con acceso a cocina', 'Estudiantes'],
+      'Empleos': ['Tecnología', 'Educación', 'Ventas'],
+      'Servicios profesionales': ['Diseño gráfico', 'Contabilidad', 'Asesoría legal'],
+      'Clases': ['Idiomas', 'Música', 'Programación'],
+      'Reparaciones': ['Electrodomésticos', 'Plomería', 'Carpintería'],
+      'Transporte': ['Mudanzas', 'Transporte escolar', 'Rutas urbanas'],
+      'Electrónica': ['Smartphones', 'Laptops', 'Accesorios'],
+      'Muebles': ['Sofás', 'Camas', 'Mesas'],
+      'Vehículos': ['Autos usados', 'Motos', 'Camionetas']
+    };
+
+    cards.forEach(card => {
+      const title = card.querySelector('h3');
+      const detalles = document.createElement('div');
+      detalles.classList.add('detalles');
+      detalles.style.display = 'none';
+      card.appendChild(detalles);
+
+      card.addEventListener('click', () => {
+        const contenido = datos[title.textContent.trim()] || ['Contenido no disponible'];
+        detalles.innerHTML = `<ul>${contenido.map(item => `<li>${item}</li>`).join('')}</ul>`;
+        detalles.style.display = detalles.style.display === 'none' ? 'block' : 'none';
+      });
+    });
+  });
+</script>
+</body>
+</html>
